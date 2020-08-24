@@ -1,8 +1,21 @@
 $(function(){
-  $('.box1').on('click', function(){
-    $('.box1').addClass('box1-ext');
+  $('.bg1').on('click', function(){
+    $(this).slideUp();
   });
-  $('.box1').mouseout(function(){
-    $('.box1').removeClass('box1-ext');
+  
+  $('.bg2').on('click', function(){
+    $(this).slideUp();
+  });
+
+  $('.bg3').on('click', function(){
+    $(this).slideUp();
+  });
+
+  $('.bg4').on('click', function(){
+    $(this).slideUp();
+  });
+
+  $('button').on('click', function(){
+    $('ul').children().css('color','red');
   });
 });
