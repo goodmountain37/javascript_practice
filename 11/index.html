@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <title>デモ</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <!-- cssへのリンク -->
+    <link rel="preload" href="style.css" as="style">
+    <link rel="stylesheet" href="style.css">
+    <!-- jQueryへのリンク -->
+    <script src="jquery.min.js" defer="defer"></script>
+    <!-- javascriptへのリンク -->
+    <script src="script.js" defer="defer"></script>
+</head>
+<body>
+  <h1>11章【タブメニューを作ってみよう】</h1>
+
+  <div class="wrap">
+    <ul id="tab-menu" class="clearfix">
+      <li><a href="#tab1" class="active">TAB1</a></li>
+      <li><a href="#tab2" class="">TAB2</a></li>
+      <li><a href="#tab3" class="">TAB3</a></li>
+      <li><a href="#tab4" class="">TAB4</a></li>
+    </ul>
+
+    <div id="tab-contents" class="clearfix">
+      <div id="tab1" class="tab">
+        <p>TAB1のテキストが入ります。</p>
+      </div>
+
+      <div id="tab2" class="tab">
+        <p>TAB2のテキストが入ります。TAB２のテキストが入ります。</p>
+      </div>
+
+      <div id="tab3" class="tab">
+        <p>TAB3のテキストが入ります。TAB３のテキストが入ります。TAB3のテキストが入ります。</p>
+      </div>
+
+      <div id="tab4" class="tab">
+        <p>TAB4のテキストが入ります。TAB4のテキストが入ります。TAB4のテキストが入ります。TAB4のテキストが入ります。</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
